@@ -61,7 +61,7 @@ def see_rates(res, data, amount_usd, convert_to):
 
 if __name__ == "__main__":
 	# api url 
-	url = "https://v6.exchangerate-api.com/v6/1bdd3bc6f442a91f6a119d60/latest/USD"
+	url = ""
 
 	# connect to api
 	res = requests.get(url)
